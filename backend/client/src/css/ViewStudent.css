@@ -1,0 +1,35 @@
+.student-details{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.name-details{
+    margin-bottom: 20px;
+    display: flex;
+}
+.roll-number-details{
+    margin-bottom: 20px;
+    display: flex;
+}
+.class-details{
+    margin-bottom: 20px;
+    display: flex;
+}
+.school-details{
+    margin-bottom: 20px;
+    display: flex;
+}
+.sudent-details-heading{
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+.stu-go-back{
+    margin-top: 12px;
+}
+
+
+/* body{
+    margin-left: 260px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+} */

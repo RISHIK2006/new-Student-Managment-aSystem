@@ -1,0 +1,18 @@
+.sub-details-div{
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);   
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    height: 250px;
+}
+.sub-details-list{
+    list-style: none;
+    display: flex;
+    font-size: large;
+    margin-left: 30px;
+    padding-bottom: 12px;
+}
+.subject-details{
+    padding-top: 20px;   
+    margin-bottom: 30px;
+}

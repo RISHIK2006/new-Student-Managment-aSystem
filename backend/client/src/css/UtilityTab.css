@@ -1,0 +1,90 @@
+ /* .navbar-utility {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+} 
+
+ .nav-item-utility {
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+} 
+
+ .nav-item-utility.active {
+    color: #007bff; 
+    font-weight: bold;
+} 
+
+ .nav-item-utility.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007bff; 
+}  */
+/* Navbar container */
+.navbar-utility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Change this to a color that fits your design */
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar items */
+.nav-item-utility {
+  margin: 0 15px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  text-transform: uppercase;
+  color: #2E2E2E; /* Darker text for better readability */
+  cursor: pointer;
+  padding-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect - color change and underline animation */
+.nav-item-utility:hover {
+  color: #0077B6; /* On hover color */
+}
+
+.nav-item-utility::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0077B6; /* The color of the underline */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-item-utility:hover::after,
+.nav-item-utility.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Active state - show the underline on the active page */
+.nav-item-utility.active {
+  color: #0077B6; /* Active color */
+}
+
+/* Active underline for the active tab */
+.nav-item-utility.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

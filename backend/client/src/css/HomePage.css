@@ -1,0 +1,125 @@
+/* .grid{
+    display: grid;
+    gap: 6.4rem;
+}
+.grid-two-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+.intro{
+    margin-top: 20%;
+    margin-right: 50px;
+}
+.homepage-img{
+    height: 200px;
+}
+.para-login{
+    text-align: center;
+    font-size:large ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.introduction{
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+body{
+background: linear-gradient(300deg, #E3FDFD, #CBF1F5, #A6E3E9);
+} */
+
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.section-homepage {
+    background-color: #e0f7fa;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.grid-two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.homepage-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.homepage-img img:hover {
+    transform: scale(1.05);
+}
+
+.intro {
+    text-align: left;
+    padding: 2rem;
+    color: #333;
+}
+
+.introduction {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease-out;
+}
+
+.para-login {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: #ffffff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: #004d40;
+    transform: scale(1.1);
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .grid-two-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .intro {
+        text-align: center;
+        padding: 1rem;
+    }
+}

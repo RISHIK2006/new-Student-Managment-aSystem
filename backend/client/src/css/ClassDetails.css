@@ -1,0 +1,21 @@
+.section-cd{
+       box-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
+       width: 500px;
+       margin: auto;
+       height: 300px;
+}
+.heading{
+    padding-top: 12px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+}
+.class-name{
+    font-size: large;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+}
+.cd-btn-div{
+    display: flex;
+    padding-left: 20px;
+}

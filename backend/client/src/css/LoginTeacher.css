@@ -1,0 +1,10 @@
+#teacher-email{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    transition: border 0.3s;
+    width: 80%;
+}

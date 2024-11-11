@@ -1,0 +1,80 @@
+/* General container styling for the student profile page */
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.profile-page h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1em;
+}
+
+.profile-page p {
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+}
+
+/* Profile picture container */
+.profile-pic-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+/* Circular profile picture styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    background-color: #e0e0e0; /* Background color for loading */
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* File input for uploading profile picture */
+.profile-pic-container input[type="file"] {
+    display: none;
+}
+
+.upload-button {
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #2980b9;
+}
+
+/* Style for other elements */
+.student-info {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.student-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.student-info p strong {
+    color: #333;
+}

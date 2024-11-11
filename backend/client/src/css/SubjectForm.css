@@ -1,0 +1,42 @@
+#subject, #code, #session{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  font-size:large;
+  color: black;
+}
+::placeholder{
+  font-size: large;
+  color: black;
+}
+.btn{
+  margin: 12px 12px;
+}
+.container{
+  margin-top: 50px;
+}
+.add-class-heading{
+  margin-bottom:40px;
+}
+.btn-remove{
+    background-color: white; 
+    color: red;  
+    border: 2px solid red; 
+    padding: 10px 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    outline: none; 
+    transition: all 0.3s ease; 
+    cursor: pointer;
+}
+.btn-remove:hover{
+    background-color: red; 
+    color: white; 
+}

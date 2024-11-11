@@ -1,0 +1,67 @@
+.students-list-container {
+  padding: 20px;
+}
+
+.students-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.students-table th, .students-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: black;
+  color: white;
+}
+
+.students-table td {
+  background-color: #f9f9f9;
+}
+
+.students-table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-button {
+  background-color: #001f58;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.attendance-button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.view-button:hover, .attendance-button:hover, .dropdown-button:hover {
+  opacity: 0.8;
+}
+teacher-th{
+  padding-right: 200px;
+}

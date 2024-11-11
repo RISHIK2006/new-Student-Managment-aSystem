@@ -1,0 +1,47 @@
+.add-marks-section{
+    margin-top: 50px;
+}
+    
+.add-marks-section{
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width:40%;
+    margin-bottom: 20px;
+}
+
+.add-marks-heading{
+    margin-bottom: 12px;
+    font-size: xx-large;
+}
+
+#choose-subject{
+    width: 100%;
+}
+#stu-marks{
+    height: 40.67px;
+    width: 100%;
+}
+#choose-subject,#stu-marks{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    transition: border 0.3s;
+    display: flex;
+}
+.student-marks-name{
+    margin-bottom: 20px;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+}
+.add-marks-go-back{
+    width: 100%;
+    margin-top: 20px;
+}

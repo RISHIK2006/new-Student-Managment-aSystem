@@ -1,0 +1,61 @@
+.admin{
+    background-color: rgb(94, 94, 202);
+    color: azure;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+    height: 155px;
+}
+.admin:hover{
+    background-color: azure;
+    color: rgb(94, 94, 202);
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-out ;
+}
+.student{
+    background-color: rgb(94, 94, 202);
+    color: azure;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+}
+.student:hover{
+    background-color: azure;
+    color: rgb(94, 94, 202);
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-out ;
+}
+.teacher{
+    background-color: rgb(94, 94, 202);
+    color: azure;
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+}
+.teacher:hover{
+    background-color: azure;
+    color: rgb(94, 94, 202);
+    font-size: larger;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-out ;
+}
+.chooseUser{
+    margin: 30px 30px;
+}

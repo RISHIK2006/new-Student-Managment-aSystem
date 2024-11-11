@@ -1,0 +1,36 @@
+/* input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+} */
+.admin-para{
+    display: flex;
+    justify-content: center;
+    text-align:left ;
+    margin-bottom: 20px;
+    font-size: large;
+
+}
+#admin-name,#schoolname,#admin-email,#admin-password{
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.admin-heading{
+    font-size: xxx-large;
+}
+.register-form{
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
